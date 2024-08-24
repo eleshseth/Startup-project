@@ -1,118 +1,134 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.body{
-    font-family: "Montserrat" ,sans-serif;
-background-color: black;
+.body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
 }
-.header{
-    background-color: #FCAF02;
-    ;
-    width: 100%;
-    height: 70px;
-display: flex;
-justify-content: space-between;
-align-items: center;
+.header {
+  background-color: #fcaf02;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo{
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 40px;
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
 }
-.nav{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navItem {
+  margin-left: 10px;
+  margin-right: 80px;
+  font-size: 25px;
+}
+.info {
+  color: white;
+}
+.infoHeading {
+  margin-left: 50px;
+  font-size: 64px;
+  padding-top: 30px;
+}
+.content {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.infoPara {
+  margin-left: 50px;
+  padding-top: 30px;
 
+  font-size: 24px;
+  margin-right: 30px;
 }
-.navItem{
-    margin-left: 10px;
-    margin-right: 80px;
-    font-size: 25px;
+.humanImage {
+  margin-right: 30px;
+  width: 697px;
+  height: 482px;
 }
-.info{
-    color: white;
-    
+.btnLogin {
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 20px;
+  color: black;
+  font-size: 32px;
+  font-weight: 700;
+  background-color: #fcaf02;
+  border-radius: 500px;
 }
-.infoHeading{
-    margin-left: 50px;
-    font-size: 64px;
-    padding-top: 30px;
+.formHeading {
+  color: #fcaf02;
+  margin-left: 50px;
+  margin-top: 50px;
 }
-.content{
-    align-items:center;
-display: flex;
-justify-content:space-evenly;
-}
-.infoPara{
-    margin-left: 50px;
-    padding-top: 30px;
-
-    font-size: 24px;
-    margin-right: 30px;
-}
-.humanImage{
-    margin-right: 30px;
-    width: 697px;
-    height: 482px;
-}
-.btnLogin{
-    margin-top: 50px;
-    margin-left: 50px;
-    padding: 10px;
-    padding-left: 70px;
-    padding-right: 70px;
-    font-size: 20px;
-    color:black;
-    font-size: 32px;
-    font-weight: 700;
-    background-color: #FCAF02;
+.formStyle {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  input {
+    border: 2px solid #fcaf02;
+    padding: 15px 0;
     border-radius: 500px;
-}
-.formHeading{
-    color: #FCAF02;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-.formStyle{
-    display: flex;
-    justify-content: center;
-    padding:15px;
-    input{
-        border: 2px solid #FCAF02;
-       padding: 15px 0;
-        border-radius: 500px;
-        background-color: black;
-        color: #FCAF02;
+    background-color: black;
+    color: #fcaf02;
     width: 1810px;
-    }
-    input::placeholder{
-        color: #FCAF02;
-    }
+  }
+  input::placeholder {
+    margin-left: 20px;
+    padding: 20px;
+    color: #fcaf02;
+  }
 }
-.divspace{
-    display: flex;
-    justify-content: space-evenly;
+.divspace {
+  display: flex;
+  justify-content: space-evenly;
 }
-.formStylediv{
-    display: flex;
-    justify-content: center;
-    padding:15px;
-    input{
-        border: 2px solid #FCAF02;
-       padding: 15px 0;
-        border-radius: 500px;
-        background-color: black;
-        color: #FCAF02;
+.formStylediv {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  input {
+    border: 2px solid #fcaf02;
+    padding: 15px 0;
+    border-radius: 500px;
+    background-color: black;
+    color: #fcaf02;
     width: 870px;
-    }
-    input::placeholder{
-        margin-left: 20px;
-        padding: 20px;
-        color: #FCAF02;
-    }
+  }
+  input::placeholder {
+    margin-left: 20px;
+    padding: 20px;
+    color: #fcaf02;
+  }
+}
+.btnSubmit {
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 20px;
+  color: black;
+  font-size: 32px;
+  font-weight: 700;
+  background-color: #fcaf02;
+  border-radius: 500px;
+}
+.SubmitButtonDiv {
+  display: flex;
+  justify-content: center;
 }
 /* .navNames{
     display: flex;
