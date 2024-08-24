@@ -130,6 +130,26 @@
   display: flex;
   justify-content: center;
 }
+.table {
+  display: flex;
+  justify-content: flex-start;
+
+  color: #fcaf02;
+  border: 1px solid #fcaf02;
+}
+.divTable {
+  padding: 40px 40px;
+}
+.tableRow {
+  padding: 40px 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.tableHead {
+  margin-left: 80px;
+  display: flex;
+  justify-content: flex-end;
+}
 /* .navNames{
     display: flex;
     justify-content: space-around;
